@@ -1,0 +1,33 @@
+{
+  "name": "weblemmings",
+  "version": "0.1.0",
+  "description": "Web-based Lemmings remake — TypeScript + Canvas 2D",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write src"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/howler": "^2.2.12",
+    "@types/node": "^22.13.7",
+    "@typescript-eslint/eslint-plugin": "^8.26.0",
+    "@typescript-eslint/parser": "^8.26.0",
+    "@vitest/coverage-v8": "^3.0.8",
+    "eslint": "^9.21.0",
+    "jsdom": "^28.1.0",
+    "prettier": "^3.5.2",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.1",
+    "vitest": "^3.0.8"
+  },
+  "dependencies": {
+    "howler": "^2.2.4"
+  }
+}

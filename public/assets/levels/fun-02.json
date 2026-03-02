@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "id": "fun-02",
+    "name": "Down the Hatch",
+    "author": "WebLemmings",
+    "pack": "fun",
+    "difficulty": 2
+  },
+  "config": {
+    "lemmingCount": 10,
+    "saveRequired": 4,
+    "ratingBase": 5,
+    "spawnRate": 3,
+    "timeLimit": 300,
+    "skills": {
+      "climber": 0,
+      "floater": 5,
+      "bomber": 0,
+      "blocker": 0,
+      "builder": 0,
+      "basher": 3,
+      "miner": 0,
+      "digger": 0
+    }
+  },
+  "terrain": {
+    "width": 800,
+    "height": 400,
+    "tileset": "dirt",
+    "tiles": [
+      {
+        "tileId": 0,
+        "x": 0,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 32,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 64,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 96,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 128,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 160,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 192,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 224,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 256,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 288,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 320,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 352,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 384,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 416,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 448,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 480,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 512,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 544,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 576,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 608,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 640,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 672,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 704,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 736,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 768,
+        "y": 200
+      },
+      {
+        "tileId": 0,
+        "x": 0,
+        "y": 136
+      },
+      {
+        "tileId": 0,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "tileId": 0,
+        "x": 32,
+        "y": 136
+      },
+      {
+        "tileId": 0,
+        "x": 32,
+        "y": 168
+      },
+      {
+        "tileId": 0,
+        "x": 64,
+        "y": 136
+      },
+      {
+        "tileId": 0,
+        "x": 64,
+        "y": 168
+      },
+      {
+        "tileId": 0,
+        "x": 384,
+        "y": 136
+      },
+      {
+        "tileId": 0,
+        "x": 384,
+        "y": 168
+      },
+      {
+        "tileId": 0,
+        "x": 416,
+        "y": 136
+      },
+      {
+        "tileId": 0,
+        "x": 416,
+        "y": 168
+      }
+    ],
+    "steel": []
+  },
+  "objects": {
+    "spawners": [
+      {
+        "x": 112,
+        "y": 5
+      }
+    ],
+    "exits": [
+      {
+        "x": 640,
+        "y": 190,
+        "width": 24,
+        "height": 16
+      }
+    ],
+    "hazards": [],
+    "decorations": []
+  }
+}
